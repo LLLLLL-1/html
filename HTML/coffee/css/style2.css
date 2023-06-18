@@ -1,0 +1,650 @@
+
+
+/* 导航栏 */
+
+
+.navbar-float {
+    
+    height: 832px;
+
+    background-color: #fff;
+}
+.navbar {
+    float: left;
+    padding-left: 10%;
+    position: fixed;
+    width: 100%;
+    background-color: transparent !important;
+    z-index: 1000;
+    
+}
+.nav-item {
+    
+    margin-right: 30px;
+
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(255, 255, 255);
+}
+.navbar-light .navbar-brand {
+    color: rgb(255 255 255 / 90%);
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: rgb(252 252 252);
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: rgb(212, 212, 212);
+    
+}
+.navbar-brand-a {
+    color: #fff;
+    font-size: 20px;
+    line-height: 30px;
+    padding-right: 40px;
+    padding-bottom: 2px;
+}
+.navbar-light .navbar-brand{
+    color: rgb(255 255 255 / 90%);
+}
+.navbar-light .navbar-brand:hover {
+    color: rgb(255 255 255 / 90%);
+}
+.card-img-top-logo {
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+    
+}
+.card-img-top-logo {
+    filter: invert(1);
+}
+
+
+.navbar-white {
+    background-color: rgb(54, 54, 54) !important;
+}
+
+
+
+/* 轮播 */
+.jumbotron {
+    background-size: cover;
+    background-position: center;
+    float:left;
+    color: white;
+    height: 900px;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    top: -100px;
+    z-index: 500;
+
+}
+.jumbotron-container {
+    width: 100%;
+    height: 100vw;
+}
+.container-flex {
+    display: flex;
+    justify-content: center;
+}
+.container-img {
+    
+    height: 110%;
+    width: 100%
+}
+.container-float {
+    float: left;
+    position: absolute;
+    text-align: center;
+    z-index: 999;
+    padding: 10px;
+}
+.clear-float {
+    clear: both;
+}
+.slider {
+
+    position: relative;
+    height: 100%;
+    overflow: hidden; 
+}
+.slider img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+.slider img.active {
+    opacity: 1;
+}
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.slider-buttons button { 
+    display: none; 
+}
+.container-img:hover .slider-buttons button { 
+    display: block; 
+}
+.prev {
+    left: 0;
+}
+
+.next {
+    right: 0;
+}
+
+
+.btn-primary1 {
+    margin-right: 15px;
+}
+
+.jumbotron h1 {
+    font-size: 40px;
+    font-weight: 550;
+    padding-bottom: 5px;
+    width: 400px;
+    font-variant: tabular-nums;
+}
+
+.jumbotron h4 {
+    margin-top: 140px;
+    color: #ffffff85;
+}
+
+.jumbotron p {
+    font-size: 20px;
+    color: coral;
+    font-variant: tabular-nums;
+    width: 400px;
+    text-align: center;
+}
+
+.jumbotron button {
+    border-radius: 50px;
+    background: transparent;
+    border-color: #fff;
+    max-width: auto;
+}
+.btn {
+
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 10px;
+
+}
+
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+    color: rgb(12, 12, 12);
+    background-color: #f1f1f1;
+
+}
+.btn-hover-light:hover {
+    background-color: #e6e6e6;
+    border-color: #d9d9d9;
+    background: transparent;
+}
+.btn-no-active:active {
+    background-color: #ffffff;
+    border-color: #ffffff;
+}
+
+
+
+
+/* 介绍 */
+
+
+
+.container-body-1 {
+    background-color: #fff;
+    padding-left: 1%;
+    padding-right: 1%;
+
+    position: absolute;
+    height: 310vw;
+}
+
+
+
+.col-md-6 {
+    max-width: 48vw;
+    height: 38vw;
+    background-image: url(../image/bg5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 5vw;
+    margin-left: 1vw;
+    margin-bottom: 15px;
+    position: relative;
+    text-align: center;
+    cursor: pointer;
+}
+
+.h2, h2 {
+    font-size: 2vw;
+    margin-bottom: 2vw;
+}
+.h4, h4 {
+    font-size: 1.6vw;
+    color: #04700c;
+}
+
+
+
+.col-md-6 p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 1.2vw;
+}
+
+.btn-primary-1{
+    border-style: hidden;
+    cursor: pointer;
+    color: black;
+    background: transparent;
+    text-decoration: none;
+    width: 10vw;
+    height: 2vw;
+}
+.btn-primary-2 {
+    border-style: hidden;
+    cursor: pointer;
+    color: black;
+    background: transparent;
+    text-decoration: none;
+    font-size: 1.2vw;
+
+}
+
+.btn-primary-1 { 
+    text-decoration: none; 
+}
+
+.btn-primary-1:hover { 
+    text-decoration: underline; 
+}
+
+button:focus{
+    outline: none;
+}
+
+.col-md-6 ul{
+    padding-left: 0px;
+    margin-top: 3vw;
+    font-size: 1vw;
+}
+
+.col-md-6 ul li{
+    list-style:none;
+    padding-top: 1vw;
+
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    font-size: 1vw;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    margin-left: 100%;
+    margin-top: -100%;
+    background-color: white;
+    border-radius: 30px;
+    background: transparent;
+    color: white;
+    padding-top: 20px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    z-index: 900;
+}
+.dropdown-content p:hover {
+    text-decoration: underline;
+}
+
+.container-body-2 {
+
+    /* padding-left: 1%; */
+    padding-right: 1%;
+    position: relative;
+    height: 50vw;
+    width: 100%;
+    position: absolute;
+    margin-top: 120vw;
+    padding-top: 3vw;
+    background-color: whitesmoke;
+}
+
+#carousel {
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  #carousel video {
+    width: 100%;
+    height: auto;
+    display: none;
+  }
+  
+  #carousel video.active {
+    display: block;
+  }
+  
+  #carousel .controls {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  /* 隐藏video 全屏按钮 */
+  .videosss::-webkit-media-controls-fullscreen-button {
+      display: none;
+  }
+  /* 隐藏video 进度条 */
+  .videosss::-webkit-media-controls-timeline {
+      display: none;
+  }
+  /* 隐藏video 音量按钮 */
+.videosss::-webkit-media-controls-mute-button {
+      display: none;            
+}
+/* 隐藏video 所有控件 */
+.videosss::-webkit-media-controls-enclosure{ 
+      display: none;
+}
+  #carousel .controls button {
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 24px;
+    cursor: pointer;
+  }
+
+
+ .container-body-2 p {
+    margin-top: 0px;
+    margin-bottom: 1rem;
+    float: left;
+    position: absolute;
+    z-index: 1000;
+    font-size: 3vw;
+    color: #fff;
+    text-align: center;
+    margin-top: 2vw;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+/* 视频 */
+
+.modal-body video {
+    width: 100%;
+    height: auto;
+}
+.modal-dialog {
+    max-width: 90vw;
+    margin: 1.75rem auto;
+}
+.modal-content {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 80vw;
+    left: 5vw;
+    pointer-events: auto;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: .3rem;
+    outline: 0;
+}
+
+
+
+.fullscreen-bg {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
+}
+
+.fullscreen-bg__video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+
+.slideshow-container-2 {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    overflow: hidden;
+  }
+  
+  .slide-2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .slide-2 video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .slide-2.active {
+    opacity: 1;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 页脚 */
+
+.bg-dark {
+    height: 50vw;
+    position: absolute;
+    width: 100%;
+    margin-top: 180vw;
+}
+
+/* 设置页脚背景颜色和字体颜色 */
+footer {
+    background-color: #343a40;
+    color: #fff;
+}
+.footer-title{
+    text-align: center;
+    width: 100%;
+    margin-top: 35px;
+    margin-bottom: 50px;
+}
+.footer-btn1{
+    padding-top: 7px;
+    padding-left: 15px;
+    padding-bottom: 7px;
+    padding-right: 15px;
+    border-radius: 15px;
+    background-color: transparent;
+    color: white;
+    border: groove;
+    cursor: pointer;
+}
+.footer-btn1:hover{
+    border-color: #d9d9d9;
+}
+.bg-dark h6{
+    margin: 20px 20px;
+}
+  /* 设置页脚中的标题样式 */
+  
+.bg-dark img{
+    width: 30px;
+    height: 30px;
+    float: left;
+    filter: invert(1);
+    margin-top: 5px;
+
+}
+  /* 设置社交媒体图标的样式 */
+.social-icons a {
+    color: #fff;
+    font-size: 1.5rem;
+    margin-right: 0.5rem;
+}
+  
+  /* 设置页脚中的链接样式 */
+.bg-dark ul li a {
+    color: rgb(147, 147, 147);
+    text-decoration: none;
+    font-size: 12px;
+}
+  
+  /* 设置页脚底部链接的样式 */
+.bg-dark ul.list-inline li a {
+    color: #999;
+    text-decoration: none;
+    margin-right: 1rem;
+}
+  
+  /* 设置页脚底部链接的鼠标悬停样式 */
+.bg-dark ul.list-inline li a:hover {
+    color: #fff;
+}
+
+.col-md-4 {
+    flex: 0 0 33.333333%;
+    max-width: 25%;
+    padding-left: 0px;
+    padding-right: 20px;
+    padding-top: 15px;
+
+}
+
+.col-md-4 p{
+    color: #fff;
+    font-size: 12px;
+}
+.col-md-4 .list-unstyled  {
+    color:#999;
+
+}
+
+.footer-logo-p {
+    font-size: 12px;
+    line-height: 40px;
+}
+
+.footer-logo {
+    width: 100%;
+    height: 40px;
+    margin-top: 30px;
+}
